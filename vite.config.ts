@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev
 export default defineConfig({
-  base: "./", // 👈 ADICIONE ESTA LINHA AQUI
+  base: "/3CNewsSite/", 
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
